@@ -4,6 +4,8 @@ import pandas as pd
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
 USERS = pd.DataFrame(columns=["Users"])
 
+#LL
+
 class User:
     def __init__(self, name: str = "", 
                  firstname: str = "",
